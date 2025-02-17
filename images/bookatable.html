@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book A table</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!--nav bar-->
+    <div class="main">
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="Food - Website Design (Community)/japanese-food.png" alt="">
+                    <img src="Food - Website Design (Community)/Cuisine.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <!--nav-item-->
+                        <li class="nav-item px-3">
+                            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                        </li>
+
+                        <li class="nav-item px-3">
+                            <a class="nav-link active" aria-current="page" href="menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+
+
+                    <form class="d-flex px-5 justify-content-center" role="search">
+
+                        <a class="btn btn-danger" href="bookatable.html" target="_blank">Book a Table</a>
+                    </form>
+
+                </div>
+            </div>
+        </nav>
+        <!--forms-->
+        <div class="container text-center mt-5">
+            <h1 class="head">Book a Table</h1>
+            <p class="special">We consider all the drivers of change gives you the components you need to change to create a truly happens.</p>
+        </div>
+        <!--book table-form-->
+        <div class="reservation-form">
+            <form>
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <label for="date" class="form-label">Date</label>
+                        <input type="date" class="form-control" id="date" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="time" class="form-label">Time</label>
+                        <input type="time" class="form-control" id="time" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Full Name" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="phone" class="form-label">Phone</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="Your Phone Number" required>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="persons" class="form-label">Total Persons</label>
+                        <select class="form-select" id="persons">
+                            <option selected>1 Person</option>
+                            <option>2 Persons</option>
+                            <option>3 Persons</option>
+                            <option>4+ Persons</option>
+                        </select>
+                    </div>
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-theme">Book A Table</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        </div>
+        <!--footer-->
+        <footer class="footer mt-5">
+            <div class="footer-container">
+                
+                <!-- Left Section: Bistro Bliss Logo & Description -->
+                <div class="footer-left">
+                    <h3 class="footer-logo">🍜 Bistro Bliss</h3>
+                    <p class="footer-desc">
+                        In the name of a heavenly taste, we work to make the future with deliciously made foods. It is our company aim.
+                    </p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+        
+                <!-- Middle Section: Pages & Utility Pages -->
+                <div class="footer-middle">
+                    <div class="footer-links">
+                        <h4>Pages</h4>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Menu</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Delivery</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links">
+                        <h4>Utility Pages</h4>
+                        <ul>
+                            <li><a href="#">Start Here</a></li>
+                            <li><a href="#">Sitemap</a></li>
+                            <li><a href="#">Password Protected</a></li>
+                            <li><a href="#">404 Not Found</a></li>
+                            <li><a href="#">Licenses</a></li>
+                            <li><a href="#">Changelog</a></li>
+                        </ul>
+                    </div>
+                </div>
+        
+                <!-- Right Section: Instagram Images -->
+                <div class="footer-right">
+                    <h4>Follow Us On Instagram</h4>
+                    <div class="footer-images">
+                        <img src="noodles.png" alt="Food Image 1">
+                        <img src="fry egg.png" alt="Food Image 2">
+                        <img src="waffles.png" alt="Food Image 3">
+                        <img src="zinger.png" alt="Food Image 4">
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
