@@ -1,0 +1,93 @@
+:root{
+    --olivegreen: #DED369;
+    --cream:#D0A058;
+    --grey:rgb(225, 225, 225);
+    --babypink:#DC908E;
+    --pink:#AE7885;
+    /* #e0475b; */
+}
+*{
+    margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+/* HERO SECTION  */
+.hero {
+    width: 100%;
+}
+.hero-text {
+    font-family: sarif;
+}
+.bh-1{
+    background-color: #DC908E;
+    border-color: black;
+}
+.bh-1:hover{
+    background-color:var(--pink);
+    border-color: black;
+
+}
+.bh-2{
+    background-color: var(--babypink);
+    color: black;
+    border-color: black;
+}
+
+.bh-2:hover{
+    background-color: var(--pink);
+    color: black;
+    border-color: black;
+
+}
+/* CARDS SECTION  */
+.card{
+    background-color:var(--grey);
+}
+.c-h{
+text-decoration:4px var(--pink)  underline;
+}
+
+/* ABOUT SECTION */
+.title h1{
+    text-decoration:4px var(--pink)  underline;
+}
+
+.section {
+    width: 100%;
+    min-width: 100vh;
+border-bottom: 2px solid rgb(236, 234, 234);
+}
+.container {
+    width: 80%;
+    display: block;
+   margin: auto ;
+
+}
+.content-section {
+    float: left;
+    width: 55%;
+    
+}
+.img-sec{
+    float: right;
+    width: 40%;
+}
+.socials a{
+    color:#ad324e;
+}
+.socials a:hover{
+    color:var(--pink);
+}
+
+ /* COSTUMERS SECTION */
+ .customer{
+    border-bottom: 2px solid rgb(236, 234, 234) ;
+    /* background-color: red; */
+    
+ }
+ .cus-head{
+    text-decoration:4px var(--pink)  underline;
+ }
+ .cus-h{
+    color:#ad324e;
+}
