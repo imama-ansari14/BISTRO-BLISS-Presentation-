@@ -11,34 +11,70 @@
 padding: 0px;
 box-sizing: border-box;
 }
-/* HERO SECTION  */
+
+/* HERO SECTION */
 .hero {
+    position: relative;
+    text-align: center;
     width: 100%;
+    height: 100vh;
 }
-.hero-text {
-    font-family: sarif;
-}
-.bh-1{
-    background-color: #DC908E;
-    border-color: black;
-}
-.bh-1:hover{
-    background-color:var(--pink);
-    border-color: black;
 
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
-.bh-2{
-    background-color: var(--babypink);
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+}
+
+.hero-overlay h1 {
+    font-size: 2rem;
+}
+
+.hero-overlay p {
+    font-size: 1.2rem;
+}
+
+@media (min-width: 768px) {
+    .hero-overlay h1 {
+        font-size: 3rem;
+    }
+    .hero-overlay p {
+        font-size: 1.5rem;
+    }
+}
+
+/* BUTTONS */
+.bh-1, .bh-2 {
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 30px;
+    /* border: 2px solid black; */
+    color: white;
+    background-color: #E0475B;
+}
+
+
+.bh-1:hover, .bh-2:hover {
+    background-color: var(--grey);
     color: black;
-    border-color: black;
 }
 
-.bh-2:hover{
-    background-color: var(--pink);
-    color: black;
-    border-color: black;
-
-}
 /* CARDS SECTION  */
 .card{
     background-color:var(--grey);
