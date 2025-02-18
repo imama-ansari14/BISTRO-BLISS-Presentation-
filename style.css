@@ -60,7 +60,7 @@ box-sizing: border-box;
 }
 
 /* BUTTONS */
-.bh-1, .bh-2 {
+.bh-1, .bh-2, .admin-but {
     padding: 12px 24px;
     font-size: 1rem;
     border-radius: 30px;
