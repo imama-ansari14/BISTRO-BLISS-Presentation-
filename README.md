@@ -43,9 +43,15 @@
 
 ## 📷 Screenshots
 
-> _Add a few screenshots here to showcase your design_  
-> Example:  
-> ![Bistro Bliss Screenshot](Screenshot.png)
+Here are some previews of our design:
+
+<p align="center">
+  <img src="Screenshot%20.png" alt="Screenshot" width="500"/>
+  <img src="Screenshot%201.png" alt="Screenshot 1" width="500"/>
+  <img src="Screenshot%202.png" alt="Screenshot 2" width="500"/>
+  <img src="Screenshot%203.png" alt="Screenshot 3" width="500"/>
+</p>
+
 
 ---
 
