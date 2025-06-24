@@ -37,8 +37,7 @@
 
 ## 🔗 Live Demo
 
-👉 **[View the live presentation here!](#)**  
-_(Add your deployed link here if you have one, e.g. Netlify, GitHub Pages, or Vercel)_
+👉 **[View the live presentation here!](https://bistro-bliss-presentation.netlify.app/)**  
 
 ---
 
@@ -46,7 +45,22 @@ _(Add your deployed link here if you have one, e.g. Netlify, GitHub Pages, or Ve
 
 > _Add a few screenshots here to showcase your design_  
 > Example:  
-> ![Bistro Bliss Screenshot](#)
+> ![Bistro Bliss Screenshot](screenshot)
 
 ---
+
+## 📞 Contact
+
+📧 ansariimama@yahoo.com  
+👤 [LinkedIn](https://www.linkedin.com/in/imama-ansari-5a604b337) | [GitHub](https://github.com/imama-ansari14)
+
+---
+
+## ⭐️ Thank you for visiting **BISTRO BLISS - Presentation**! 
+  
+We hope you like our food-themed project.  
+If you find it useful or inspiring, feel free to ⭐️ the repository and share your feedback.  
+
+Happy Coding! 🚀✨
+-
 
