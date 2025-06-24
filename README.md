@@ -45,7 +45,7 @@
 
 > _Add a few screenshots here to showcase your design_  
 > Example:  
-> ![Bistro Bliss Screenshot](screenshot.png)
+> ![Bistro Bliss Screenshot](Screenshot.png)
 
 ---
 
